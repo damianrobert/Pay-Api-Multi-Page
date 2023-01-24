@@ -1,0 +1,13 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: #edf3f8;
+    box-sizing: border-box;
+  }
+}
