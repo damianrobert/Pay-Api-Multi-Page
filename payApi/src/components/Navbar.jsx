@@ -51,7 +51,7 @@ export default function Navbar() {
 
         <button
           className=" bg-[#BA4270] w-[252px] h-[48px] rounded-[24px] text-[#ffffff] mb-[20px] 
-        absolute top-[300px] left-[24px] "
+        absolute top-[300px] left-[24px]   "
         >
           Schedule a demo
         </button>
@@ -102,24 +102,27 @@ export default function Navbar() {
       />
 
       <div className=" hidden md:block ">
-        <p
+        <Link
+          to="/PricingPage"
           className=" inline-block mr-[40px] text-[#36536b] text-[15px] font-bold leading-[18px] 
-        mix-blend-normal opacity-70 "
+        mix-blend-normal opacity-70 hover:cursor-pointer "
         >
           Pricing
-        </p>
-        <p
+        </Link>
+        <Link
+          to="/AboutPage"
           className=" inline-block mr-[40px] text-[#36536b] text-[15px] font-bold leading-[18px] 
-        mix-blend-normal opacity-70 "
+        mix-blend-normal opacity-70 hover:cursor-pointer "
         >
           About
-        </p>
-        <p
+        </Link>
+        <Link
+          to="/ContactPage"
           className=" inline-block mr-[40px] text-[#36536b] text-[15px] font-bold leading-[18px] 
-        mix-blend-normal opacity-70 "
+        mix-blend-normal opacity-70 hover:cursor-pointer "
         >
           Contact
-        </p>
+        </Link>
       </div>
 
       <div className=" hidden md:block ">

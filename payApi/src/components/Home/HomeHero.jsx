@@ -4,9 +4,12 @@ import phone2 from "../../assets/heroPhone2.svg";
 
 export default function HomeHero() {
   return (
-    <div className=" w-[375px] mx-auto mt-[32px] ">
-      <div className=" w-[375px] h-[429px] ">
-        <div className=" w-[328px] h-[209px] ml-[14px] bg-[#1B262F] rounded-[8px] overflow-hidden ">
+    <div className=" w-[375px] md:w-[768px] mx-auto mt-[32px] ">
+      <div className=" w-[375px] h-[429px] md:w-[573px] md:mx-auto ">
+        <div
+          className=" w-[328px] h-[209px] ml-[14px] bg-[#1B262F] rounded-[8px] overflow-hidden 
+        md:mx-auto "
+        >
           <div className=" w-full h-[30px] bg-[#2E3F4D] py-[10px] pl-[10px] mb-[20px] ">
             <div className=" w-[45px] flex justify-around ">
               <div className=" w-[11px] h-[11px] rounded-[50%] bg-[#BA4270] "></div>
@@ -37,10 +40,13 @@ export default function HomeHero() {
           </p>
         </div>
 
-        <div className=" w-[328px] h-[172px] mt-[48px] mx-auto ">
+        <div
+          className=" w-[328px] h-[172px] mt-[48px] mx-auto 
+        md:w-[573px]  "
+        >
           <h1
             className=" font-[dmSerif] text-[36px] leading-[36px] text-center text-[#36536B] 
-          mb-[24px] font-medium "
+          mb-[24px] font-medium md:text-[48px] "
           >
             Easy to implement
           </h1>
@@ -51,16 +57,24 @@ export default function HomeHero() {
           </p>
         </div>
 
-        <div className=" w-[328px] h-[482px] mx-auto relative ">
+        <div className=" w-[328px] md:w-[573px] h-[482px] mx-auto  relative ">
           <div className=" relative ">
-            <img className=" absolute left-[-25px] " src={phone1} alt="" />
-            <img className=" absolute left-[130px] " src={phone2} alt="" />
+            <img
+              className=" absolute left-[-25px] md:left-[80px] "
+              src={phone1}
+              alt=""
+            />
+            <img
+              className=" absolute left-[130px]  md:left-[260px]"
+              src={phone2}
+              alt=""
+            />
           </div>
 
-          <div className=" w-[328px] h-[144px] mx-auto absolute top-[400px] ">
+          <div className=" w-full h-[144px] mx-auto absolute top-[400px] ">
             <h1
               className=" text-[36px] text-[#36536B] leading-[36px] text-center 
-            font-[dmSerif] "
+            font-[dmSerif] md:text-[48px] md:mb-[40px] "
             >
               Simple UI & UX
             </h1>

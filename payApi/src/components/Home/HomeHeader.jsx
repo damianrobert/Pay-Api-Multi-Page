@@ -14,11 +14,13 @@ export default function HomeHeader() {
         />
       </div>
 
-      <img
-        className=" invisible md:visible md:absolute md:top-0 md:left-0 md:z-[-3] "
-        src={tabletCircle}
-        alt=""
-      />
+      <div>
+        <img
+          className=" hidden md:block  absolute top-0 md:z-[-4] "
+          src={tabletCircle}
+          alt=""
+        />
+      </div>
 
       <div className=" w-fit ml-[70px] md:ml-[280px] ">
         <img src={headerPhone} alt="" />
